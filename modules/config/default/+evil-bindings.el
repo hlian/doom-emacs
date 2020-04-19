@@ -592,7 +592,7 @@
         :desc "wanderlust" "m" #'=wanderlust))
 
       ;;; <leader> p --- project
-      (:prefix-map ("p" . "project")
+      (:prefix-map ("u" . "project")
        :desc "Browse project"               "." #'+default/browse-project
        :desc "Browse other project"         ">" #'doom/browse-in-other-project
        :desc "Run cmd in project root"      "!" #'projectile-run-shell-command-in-root
